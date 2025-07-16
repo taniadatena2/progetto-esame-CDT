@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>NOTIZIE</title>
+      <link rel="stylesheet" href="style.css"><script src="https://code.jquery.com/jquery-3.6.0.js"></script><script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script><script src="script2.js"></script></head>
+   <body>
+      <header>
+         <h1><a href="index.html">La Rassegna Settimanale</a></h1>
+      </header>
+      <nav>
+         <ul>
+            <li><a href="#">ARTICOLI</a><ul>
+                  <li><a href="art179.html" data-file="art.179.xml" class="carica_articolo">Articolo 1, fascicolo 179</a></li>
+                  <li><a href="art194.html" data-file="art194.xml" class="carica_articolo">Articolo 2, fascicolo 194</a></li>
+               </ul>
+            </li>
+            <li><a href="#">BIBLIOGRAFIA</a><ul>
+                  <li><a href="bibl1.html">Libro di letteratura per Fanciulli</a></li>
+                  <li><a href="bibl2.html">Un bacio, Luigi Capuana</a></li>
+               </ul>
+            </li>
+            <li><a href="#">NOTIZIE</a><ul>
+                  <li><a href="not1.html">Quinta notizia, fascicolo 179</a></li>
+                  <li><a href="not2.html">Ultima notizia, fascicolo 194 </a></li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <div class="main_container">
+         <div class="contenuto"><button id="btnEdition">Edizione Digitale</button><div id="facsimilePages">
+               <div class="page-container"><button id="prevPageFacsimile" disabled>←</button><div class="pages_wrapper">
+                     <div class="page" style="display:none;"><img src="img/not2.jpg" alt="pagina"></div>
+                  </div><button id="nextPageFacsimile">→</button></div>
+            </div>
+            <div id="textPages" style="display: none;">
+               <div class="page-container"><button id="prevPageText" disabled>←</button><div class="pages_wrapper">
+                     <div class="page" style="display:none;">
+                        <div class="columns">
+                           <div class="col col1"></div>
+                           <div class="col col2">
+                              <p>
+                                 <span class="indent" style="width:0.5cm"></span> - Secondo il <em><span class="title">Progress of the World</span></em>, libro di statistica pubblicato<br>
+                                 a <span class="place" title="Città">Londra</span>, la popolazione della <span class="place" title="Paese">Gran Bretagna</span> e degli <span class="place" title="Paese">Stati-Uniti</span>, com-<br>
+                                 presa collettivamento col nome di razza anglo-sassone, dal 1802 al<br> 
+                                 1880 è aumentata da 22 a 88 milioni, lo che significa del 300 per 100.<br>
+                                 Stando allo stesso libro, la lingua inglese, parlata al principio di que-<br>
+                                 sto secolo da 22 milioni di uomini, ora è la lingua di 90 milioni di<br>
+                                 uomini.
+                                 </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div><button id="nextPageText">→</button></div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <footer id="footer">
+      Il progetto è stato realizzato da Tania D'Atena per l'esame di Codifica di Testi,
+      previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico
+      2024-2025.
+      </footer>
+</html>

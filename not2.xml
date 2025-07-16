@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "dtd_all.dtd">
+
+<TEI>
+    <teiHeader> <!--intestazione-->
+        <fileDesc> <!--descrizione bibliografica della fonte-->
+            <titleStmt><!-- codifica del titolo dell'edizione digitale-->
+                <title type="title">NOTIZIE</title>
+            </titleStmt>
+            <editionStmt><!--informazioni relative all'edizione digitale-->
+                <edition>Edizione digitale codificata in TEI
+                    <date when="2025-06">Giugno 2025</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da </resp>
+                    <name> Angelo Mario Del Grosso </name>
+                </respStmt>
+                <respStmt>
+                    <resp> Trascrizione e codifica a cura di </resp>
+                    <name> Tania D'Atena </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt><!--informazioni relative alla pubblicazione dell'edizione-->
+                <publisher>Associazione Nazionale per gli Intressi del Mezzogiorno d'Italia</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability> 
+                   <p>Riprodotto per fini di studio e ricerca. Accesso libero </p>
+                </availability>
+                <idno type="URL">https://rassegnasettimanale.animi.it/</idno>
+            </publicationStmt>
+            <sourceDesc><!--informazioni sulla fonte-->
+                <biblStruct>
+                    <analytic>
+                        <title type="title" level="a">NOTIZIE</title>
+                        <date when="1881-09-18">18 settembre 1881</date>
+                    </analytic>
+                    <monogr>
+                        <title level="j">La Rassegna Settimanale di politica, scienze, lettere ed arti</title>
+                        <imprint>
+                            <publisher>Tipografia Barbera</publisher>
+                            <pubPlace>Roma</pubPlace>
+                            <date when="1881-09-18">18 settembre 1881</date>
+                        </imprint>
+                    </monogr>
+                    <note> Ultima notizia del fascicolo n.194 del volume 8 </note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc><!--descrive il lavoro tecnico svolto per codificare il testo-->
+            <projectDesc><!--descrizione dello scopo della codifica-->
+                <p>
+                    Le pagine dell'articolo sono state codificate per il progetto di Codifica di testi previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico 2024-2025.
+                    Il lavoro ha previsto la codifica della sezione notizie: ultima notizia, fascicolo 194 del volume 8.
+                </p>
+            </projectDesc>
+            <editorialDecl><!--dettagli sulle pratiche applicate-->
+                <p>
+                    La trascrizione è stata eseguita mantenendo la grafia originale, inclusi eventuali errori tipografici e di sintassi e uso di maiuscole/minuscole.
+                    Le città e i Paesi sono stati evidenzaiti attraverso il <placeName></placeName>.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="not2">
+            <graphic url='img/not2.jpg' width='1156.4px' height='1674.4px' />
+            <zone xml:id="not2_colonna2" ulx="610" uly="1293" lrx="1121" lry="1423" />
+        </surface>
+    </facsimile>
+
+    <text xml:lang="it">
+        <body>
+            <div type="notizia" xml:id="notizia">
+                <pb n="1" facs="#not2"/>
+                <cb n="1"/>
+                <ab facs="#"></ab>
+                <cb n="2"/>
+                <ab facs="#not2_colonna2">
+                    <p>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/> - Secondo il <hi rend="italic"><title type="book">Progress of the World</title></hi>, libro di statistica pubblicato<lb/>
+                        a <placeName type="Città">Londra</placeName>, la popolazione della <placeName type="Paese">Gran Bretagna</placeName> e degli <placeName type="Paese">Stati-Uniti</placeName>, com-<lb/>
+                        presa collettivamento col nome di razza anglo-sassone, dal <date when="1802">1802</date> al<lb/> 
+                        <date when="1880">1880</date> è aumentata da 22 a 88 milioni, lo che significa del 300 per 100.<lb/>
+                        Stando allo stesso libro, la lingua inglese, parlata al principio di que-<lb/>
+                        sto secolo da 22 milioni di uomini, ora è la lingua di 90 milioni di<lb/>
+                        uomini.
+                    </p>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

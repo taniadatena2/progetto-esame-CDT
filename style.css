@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header h1 a{
+  text-decoration: none;
+  color: white;
+}
+
+
+nav {
+  background-color: #444;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #666;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #555;
+  min-width: 360px;
+  z-index: 1;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li a {
+  padding: 10px 15px;
+}
+
+nav ul li ul li a:hover {
+  background-color: #777;
+}
+
+
+.main_container {
+  background-image: url(img/sfondo.jpeg);
+  max-width: 1300px;
+  margin: 40px auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.contenuto {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+}
+
+.contenutoIndex{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px; ;
+}
+
+#btnEdition {
+  display: block;
+  margin: 0 auto 1rem auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+.page {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  display: none;
+  background-color: white
+}
+
+.page.active{
+  display: block;
+}
+
+.col {
+  flex: 1; 
+  padding: 0.5rem; 
+  box-sizing: border-box;
+}
+
+.col.col1 {
+  border-right: 1px solid #ccc;
+}
+
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px; 
+  margin: 0 auto;
+}
+
+.pages_wrapper {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.indent {
+  display: inline-block;
+}
+
+.head {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.head.title {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: 1;   
+  padding-bottom: 0;
+}
+
+.head.subtitle {
+  font-size: 0.8em;
+  margin-top: 0;
+  line-height: 1;
+  padding-top: 0;
+}
+
+button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+  min-width: 50px;
+}
+
+button:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #333;
+}
+
+footer {
+  position: relative;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  color:black;
+  text-align: center;
+  padding: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenuto h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2e3b4e;
+}
+
+.contenuto p {
+  margin-bottom: 1.2rem;
+}
+
+.contenuto a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contenuto a:hover {
+  text-decoration: underline;
+}
+
+.columns {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.col1 {
+  order: 1;
+  flex:1;
+}
+
+.col2 {
+  order: 2;
+  flex:1;
+}
+
+
+.col .headtitle {
+  display: block;
+  text-align: center;  
+  font-weight: bold; 
+  font-size: 1em; 
+}
+
+.col .headsubtitle {
+  display: block;
+  text-align: center; 
+  font-weight: bold; 
+  font-size: 0.8em;
+}

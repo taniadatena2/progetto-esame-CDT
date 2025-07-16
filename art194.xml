@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "dtd_all.dtd">
+
+
+<TEI>
+    <teiHeader> <!--intestazione-->
+        <fileDesc> <!--descrizione bibliografica della fonte-->
+            <titleStmt><!-- codifica del titolo dell'edizione digitale-->
+                <title type="title">Le esposizioni di Belle Arti</title>
+            </titleStmt>
+            <editionStmt><!--informazioni relative all'edizione digitale-->
+                <edition>Edizione digitale codificata in TEI 
+                    <date when="2025-06">Giugno 2025</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da </resp>
+                    <name> Angelo Mario Del Grosso </name>
+                </respStmt>
+                <respStmt>
+                    <resp> Trascrizione e codifica a cura di </resp>
+                    <name> Tania D'Atena </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt><!--informazioni relative alla pubblicazione dell'edizione-->
+                <publisher>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability> 
+                   <p>Riprodotto per fini di studio e ricerca. Accesso libero </p>
+                </availability>
+                <idno type="URL">https://rassegnasettimanale.animi.it/</idno>
+            </publicationStmt>
+            <sourceDesc><!--informazioni sulla fonte-->
+                <biblStruct>
+                    <analytic>
+                        <title level="a">Le esposizioni di Belle Arti</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">La rassegna settimanale di politica, scienze, lettere ed arti</title>
+                        <imprint>
+                            <publisher>Tipografia Barbera</publisher>
+                            <pubPlace>Roma</pubPlace>
+                            <date when="1881-09-18">18 settembre 1881</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc><!--descrive il lavoro tecnico svolto per codificare il testo-->
+            <projectDesc><!--descrizione dello scopo della codifica-->
+                <p>
+                    Le pagine dell'articolo sono state codificate per il progetto di Codifica di testi previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico 2024-2025.
+                    Il lavoro ha previsto la codifica dell'articolo "Le esposizioni di Belle Arti", fascicolo 194 del volume 8.
+                </p>
+            </projectDesc>
+            <editorialDecl><!--dettagli sulle pratiche applicate-->
+                <p>
+                    La trascrizione è stata eseguita mantenendo la grafia originale. Eventuali parole arcaiche sono state normalizzate con gli elementi <orig></orig> per segnalare la parola fuori norma e <reg></reg> per normalizzare la parola.
+                    Le città e i Paesi sono stati evidenzaiti attraverso il <placeName></placeName> e i nomi degli artisti con <persName></persName>.
+                    Per evidenziare le organizzazioni, invece, è stato utlizzato il tag <orgName></orgName>.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface n="1" xml:id="pagina1Art2">
+            <graphic url='img/art2pag1.jpg' width='1131.4px' height='1718.4px' />
+            <zone xml:id="pagina1_colonna2" ulx="538" uly="903" lrx="1061" lry="1502" />
+        </surface>
+        <surface n="2" xml:id="pagina2Art2">
+            <graphic url='img/art2pag2.jpg' width='1165.4px' height='1722.4px' />
+            <zone xml:id="pagina2_colonna1" ulx="109" uly="51" lrx="625" lry="1513" />
+            <zone xml:id="pagina2_colonna2" ulx="626" uly="52" lrx="1139" lry="1516" />
+        </surface>
+        <surface n="3" xml:id="pagina3Art2">
+            <graphic url='img/art2pag3.jpg' width='1147.4px' height='1679.4px' />
+            <zone xml:id="pagina3_colonna1" ulx="27" uly="95" lrx="539" lry="1551" />
+            <zone xml:id="pagina3_colonna2" ulx="540" uly="95" lrx="1059" lry="699" />
+        </surface>
+    </facsimile>
+
+    <text xml:lang="it">
+        <body>
+            <div type="articolo" xml:id="art.BA">
+                <!--pagina 1-->
+                <pb n="1" facs="#pagina1Art2"/>
+                <cb n="1"/>
+                <ab facs="#"></ab>
+
+                <cb n="2"/>
+                <ab facs="#pagina1_colonna2">
+                    <p>
+                        <head type="title">LE ESPOSIZIONI BI BELLE ARTI</head><lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>L'Esposizione di <placeName type="Città">Torino</placeName> mise per la prima volta in luce<lb/>
+                        un fatto inaspettato e lusinghiero per noi. L'arte italiana inco-<lb/>
+                        mincia a risorgere davvero. In questo nostro paese <choice><orig style="display:none;">adunque</orig><reg>dunque</reg></choice>,<lb/>
+                        che pare solo occupato di politica, e spesso anche di cattiva<lb/>
+                        politica, c'è della gente che pensa ad altro, e che lavora alla<lb/> 
+                        formazione di una nuova <placeName type="Paese">Italia</placeName> ideale. I primi segni di questa<lb/>
+                        vita novella ci vengono dall'arte, già una volta sorgente di<lb/>
+                        tanta gloria alla patria. Non mancano certo nelle lettere e nelle<lb/>
+                        scienze, come non mancano mai fra di noi, uomini eminenti <lb/>
+                        e lavori di gran pregio. Ma i quadri e le statue che anda-<lb/>
+                        rono a <placeName type="Città">Torino</placeName> si presentarono subito come il <choice><sic style="display:none;">resultato</sic><corr>risultato</corr></choice> ge-<lb/>
+                        nerale d’un lavoro nazionale davvero. L’arte pareva decisa <lb/>
+                        a <choice><orig style="display:none;">ripigliare</orig><reg>riprendere</reg></choice> di nuovo quel primato così lungamente tenuto <lb/>
+                        e così lungamente perduto. Da <placeName type="Città">Napoli</placeName>, da <placeName type="Città">Roma</placeName>, da <placeName type="Città">To-<lb/>
+                        rino</placeName>, da <placeName type="Città">Milano</placeName>, da <placeName type="Città">Venezia</placeName>, da <placeName type="Città">Firenze</placeName>, da ogni città d’<placeName type="Paese">Ita-<lb/>
+                        lia</placeName> arrivarono opere d’ un merito singolare, che accen-<lb/>
+                        navano a scuole diverse, più o mono fiorenti, vigorose, pro-<lb/>
+                        mettenti. V’era come un alito fecondo di rinnovata giova-<lb/>
+                        nezza. Si vedeva un popolo che nell’ armonia delle linee e <lb/>
+                        dei colori trovava finalmente il linguaggio per esprimere <lb/>
+                        con originalità il proprio pensiero, il proprio modo di sentire.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Questo fatto merita di essere attentamente esaminato. Se <lb/>
+                        il risorgimento nazionale della nostra cultura accenna a pren-<lb/>
+                        dere una tale via, noi dobbiamo incoraggiarlo, aiutarlo, spin-<lb/>
+                        gerlo in essa con tutte le nostre forze, perchè può essere <lb/>
+                        il principio di grandi cose. Noi non possiamo presumere
+                    </p>
+                </ab>
+
+                <!--pagina 2-->
+                <pb n="2" facs="#pagina2Art2"/>
+                <cb n="1"/>
+                <ab facs="#pagina2_colonna1">
+                    <p>
+                        di dirigere a nostro arbitrio il cammino della civiltà di un <lb/>
+                        popolo; possiam solo promuoverlo, stimolarlo, affrettarlo, <lb/>
+                        per quella via che la natura sceglie. L'arte è un grande <lb/>
+                        elemento di cultura ed anche di ricchezza nazionale. Le espor-<lb/>
+                        tazioni di oggetti artistici salgono già ad una somma assai<lb/> 
+                        considerevole. E quando l’arte fra noi entrasse largamente <lb/>
+                        nella vita privata dei cittadini, si applicasse all’industria;<lb/> 
+                        allora la nostra produzione e la nostra esportazione potreb-<lb/>
+                        bero crescere a dismisura. Le industrie artistiche hanno oggi <lb/>
+                        nel mercato generale del mondo un gran posto, un gran peso, <lb/>
+                        ed è universalmente consentito che gl’Italiani, oggi come<lb/> 
+                        in passato, hanno per esse un’attitudine superiore a quella <lb/>
+                        di tutti gli altri popoli. Per questa ragione ci sembra che <lb/>
+                        tutto quello che all’ arte si riferisce, abbia per noi una <lb/>
+                        suprema importanza intellettuale, economica, morale, e che <lb/>
+                        il pubblico ed il governo abbiano torto di occuparsene così <lb/>
+                        poco come fanno.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/> Una delle questioni che oggi si agitano e discutono con <lb/>
+                        qualche calore è quella relativa alle Esposizioni nazionali. <lb/>
+                        Una volta le società promotrici e le <orgName type="academic">Accademie di belle arti</orgName><lb/> 
+                        facevano annualmente le esposizioni in ogni principale città <lb/>
+                        italiana. Il governo divideva fra di esse il poco danaro che <lb/>
+                        poteva spendere, comprando piccoli quadri per meschine <lb/>
+                        somme, ed incoraggiando così solo i mediocri. Il ministro <lb/>
+                        <persName key="Angelo Bargoni"><surname>Bargoni</surname></persName> fu il primo che ebbe l’idea di riunire questa som-<lb/> 
+                        ma, o spenderla tutta ogni anno in una sola esposizione <lb/> 
+                        italiana, da tenersi alternativamente in ciascuna città prin-<lb/> 
+                        cipale del <name type="geopolitical">Regno</name>. Si cominciò da <placeName type="Città">Parma</placeName> dove si tenne <lb/> 
+                        allora anche un congresso artistico, e si andò poi a <placeName type="Città">Milano</placeName>,<lb/> 
+                        <placeName type="Città">Napoli</placeName>, <placeName type="Città">Torino</placeName>, ecc. I <choice><sic style="display:none;">resultati</sic><corr>risultati</corr></choice> che se ne ebbero furono <lb/>
+                        comparativamente eccellenti, perchè la gara fra gli artisti <lb/>
+                        e le scuole diverse divenne assai più viva. Le somme che <lb/>
+                        il governo potè spendere in acquisti d’opere d’arte, seb-<lb/>
+                        bene sempre miserissime, pure, non essendo più sminuzzate, <lb/>
+                        servirono ad incoraggiare uomini di vero merito. Certo da <lb/>
+                        quel momento le esposizioni non furono più locali e pro-<lb/>
+                        vinciali, ma nazionali. Acquistarono sempre maggiore im-<lb/>
+                        portanza fino a quella di <placeName type="Città">Torino</placeName>. Non parliamo ora di<lb/>
+                        quella di <placeName type="Città">Milano</placeName>, perchè ivi non si tratta di una semplice<lb/> 
+                        esposizione di arti belle, un posto principalissimo essendo<lb/>
+                        stato serbato all'industria.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Fin da quando la sede del governo fu portata a <placeName type="Città">Roma</placeName><lb/>
+                        sorse però una questione nuova. Si vorrebbe da molti, che<lb/> 
+                        d'ora in poi non vi fosse che una sola grande esposizione <lb/>
+                        da tenersi nella capitale del <name type="geopolitical">Regno</name> annualmente. Un <hi rend="italic">Salon</hi><lb/> 
+                        come a <placeName type="Città">Parigi</placeName> è il desiderio ardente di moltissimi, non solo<lb/> 
+                        perchè sempre vogliamo imitare la <placeName type="Paese">Francia</placeName>, ma ancora per-<lb/>
+                        chè ad artisti romani o non romani, questo sembra il mezzo <lb/>
+                        più efficace a promuovere l’arte italiana. Una tale idea però, <lb/>
+                        se da un lato è proposta, sostenuta con molta eloquenza, <lb/>
+                        è dall’altro con pari energia combattuta da un numero gran-<lb/>
+                        de di artisti e cultori, ammiratori sinceri delle arti belle.<lb/>
+                        Questi avversari dicono: Bisogna ben guardarsi dall'ac-<lb/> 
+                        centrare l’arte, condannandola così ad una uniformità che la<lb/> 
+                        isterilisce. Per fortuna, oggi come nel <term type="period">Rinascimento</term>, abbiamo <lb/>
+                        una moltitudine di scuole diverse, che possono formare la ric-<lb/>
+                        chezza della nostra arte. Bisognerebbe aiutarle, stimolarle, av-<lb/>
+                        vicinarle, perchè ciascuna, serbando la sua individualità, fosse<lb/>
+                        d’aiuto alle altre, e si formasse e mantenesse in tutte un<lb/>
+                        carattere nazionale. Ora è un fatto che, quando si apre<lb/>
+                        l’Esposizione in una città, prevale, se non comanda, la<lb/> 
+                        scuola di arte che ha sede in quella città, in quella regione.<lb/> 
+                        Nelle lodi e nelle critiche, nei premi, negli acquisti, in tutto,<lb/> 
+                        la sua voce è quella che si fa sentire più delle altre e si fa<lb/>
+                        obbedire, perchè essa ha con sè l’opinione pubblica di tutta<lb/>
+                        la cittadinanza, la quale è naturalmente ispirata e guidata<lb/>
+                        dai suoi artisti. Per ora non ne viene alcun danno, perchè
+                    </p>
+                </ab>
+
+                <cb n="2"/>
+                <ab facs="#pagina2_colonna2">
+                    <p>
+                        muta la sede delle Esposizioni; prevale quindi oggi una<lb/> 
+                        scuola, domani un’altra, e l’equilibrio resta inalterato. Fer-<lb/>
+                        mate l’Esposizione in una città sola del <name type="geopolitical">Regno</name>, sia pure la<lb/>
+                        capitale, ed in pochi anni le conseguenze saranno visibili<lb/>
+                        e dannosissime. Sarebbe come dire : d’oggi in poi si farà<lb/> 
+                        ogni opera, perchè una sola delle nostre scuole prevalga a<lb/>
+                        danno di tutte le altre. Questo è un andare contro le leggi<lb/>
+                        della natura o dell’arte. Senza avvedervene, voi mirate ad<lb/> 
+                        isterilire l’arte italiana nel momento appunto in cui essa<lb/>
+                        comincia appena a rinascere.<lb/>
+                        Una Esposizione nazionale è inoltre un centro di cultura<lb/> 
+                        artistica, un focolare da cui la luce dell’arte irradia più<lb/>
+                        viva su chi è più vicino. Perchè si vorrà serbare questo<lb/>
+                        benefizio ad una sola delle nostre città, che tutte più o<lb/>
+                        meno hanno lavorato e lavorano per l’arte ? Da un lato<lb/>
+                        dunque si vuole tutto accentrare, e da un altro si vogliono<lb/>
+                        isterilire le forze vive che sono alla periferia. Se questo si<lb/> 
+                        fosse fatto nel <term type="period">Rinascimento</term>, la grande arte italiana non<lb/> 
+                        avrebbe mai potuto formarsi e risplendere della luce che<lb/>
+                        s’irradiò sul mondo. Dunque: Esposizioni italiane da alter-<lb/>
+                        narsi ogni anno nelle città principali dei <name type="geopolitical">Regno</name>; libera gara<lb/>
+                        di scuole; uguale incoraggiamento a tutte, secondo il me-<lb/>
+                        rito; diffusione di cultura artistica in tutta la penisola.<lb/>
+                        Guerra dell'esposizione centrale, unica in <placeName type="Città">Roma</placeName>!<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/> Da un’ altra parte invece si osserva come artisti di<lb/>
+                        primo ordine e non solamente romani, sostengano la Espo-<lb/>
+                        sizione centrale. Essi hanno in loro favore l’opinione di<lb/> 
+                        tutti coloro che sentono il bisogno di far della capitale un<lb/> 
+                        gran centro di cultura ; le gloriose tradizioni di <placeName type="Città">Roma</placeName>, sede<lb/> 
+                        dei più grandi monumenti dell’arte, centro in cui si riuni-<lb/>
+                        scono tutti i più grandi artisti dell’<placeName type="Paese">Italia</placeName> e del mondo, unico<lb/> 
+                        luogo in cui può esservi una opinione artistica cosmopolita<lb/> 
+                        e non locale, nè nazionale. Il <hi rend="italic">Salon</hi> di <placeName type="Città">Parigi</placeName> è stato, chiedono<lb/>
+                        essi, utile o dannoso all’arte della <placeName type="Paese">Francia</placeName> ? Non è stato<lb/> 
+                        forse un mezzo a promuoverla, senza distruggere la varietà<lb/>
+                        delle scuole ? Non sono le Esposizioni di <placeName type="Città">Londra</placeName> divenute<lb/>
+                        anch’esse utili all’arte inglese ? La <placeName type="Paese">Gran Brettagna</placeName> non è<lb/>
+                        un paese accentrato, e nessuno propone, nessuno suppone<lb/> 
+                        che Esposizioni a <placeName type="Città">Manchester</placeName>, a <placeName type="Città">Dublino</placeName>, a <placeName type="Città§">Edimburgo</placeName>, ecc.<lb/>
+                        possano giovare all’arte più di una esposizione annuale in<lb/>
+                        <placeName type="Città">Londra</placeName>. Non fosse altro, in nessun posto si faranno mai<lb/>
+                        tanti acquisti di quadri come nel gran mercato di <placeName type="Città">Londra</placeName>, 
+                        e gli acquisti non sono certo l’ultimo vantaggio delle Espo-<lb/>
+                        sizioni, perchè sono il maggiore incoraggiamento agli artisti.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Oltre di ciò, aggiungono i partigiani dell’Esposizione cen-<lb/>
+                        trale, se è utile, se è necessaria all'arte nazionale la varietà<lb/> 
+                        delle scuole, è pur necessaria una certa unità, un certo carat-<lb/>
+                        tere italiano che può nascer solo dal costante avvicinarsi de-<lb/>
+                        gli artisti. Ciò che molto contribuì alla grandezza dell’arte<lb/> 
+                        italiana nel <term type="period">Rinascimento</term> fu l’avere, per opera dei papi, un<lb/>
+                        gran centro artistico in <placeName type="Città">Roma</placeName>, dove tutte le scuole perma-<lb/>
+                        nentemente si riunivano e gareggiavano. Ed è un fatto che<lb/> 
+                        appunto per ciò gli artisti delle varie regioni d’<placeName type="Paese">Italia</placeName> produs-<lb/>
+                        sero a <placeName type="Città">Roma</placeName> le loro opere migliori. Se questo gran centro non<lb/>
+                        vi fosse stato, l’arte italiana non sarebbe stata quello che fu.<lb/> 
+                        Per farla ora tornar grande, bisogna darle una importanza<lb/> 
+                        nazionale, e questo può solo sperarsi in <placeName type="Città">Roma</placeName>. Ivi sono gli<lb/>
+                        artisti di tutto il mondo, ivi si farebbero i maggiori acqui-<lb/>
+                        sti, ivi l’arte farebbe sentire la sua azione sul <orgName type="org">Parla-<lb/>
+                        mento</orgName> e sul <orgName type="org">governo</orgName>, che più facilmente otterrebbe le somme<lb/> 
+                        necessarie ad incoraggiarla. Noi abbiamo supremo bisogno<lb/>
+                        di mettere la nostra arte in confronto delle altre, perchè si<lb/> 
+                        arrivi a vedere o a riconoscere il valore reale che essa ha,<lb/> 
+                        e sia stimolata a fare sempre di più. Non basta produrre<lb/> 
+                        delle statue, dei quadri che <hi rend="italic">per l'<placeName type="Paese">Italia</placeName></hi> siano buoni. Biso-<lb/>
+                        gna produrre opere tali che sostengano il paragone con<lb/> 
+                        quelle dei migliori artisti del mondo. E bisogna provare a
+                    </p>
+                </ab>
+
+                <!--pagina 3-->
+                <pb n="3" facs="#pagina3Art2"/>
+                <cb n="1"/>
+                <ab facs="#pagina3_colonna1">
+                    <p>
+                        persuadere agli altri, che questo paragone realmente lo<lb/>
+                        sostengono con onore. Il momento di accingersi alla prova<lb/> 
+                        sembra venuto, perché noi vedemmo a <placeName type="Città">Torino</placeName>, che artisti<lb/> 
+                        italiani i quali avevano ottenuto grandi applausi, grande<lb/> 
+                        fortuna nelle Esposizioni di <placeName type="Città">Parigi</placeName> e di <placeName type="Città">Londra</placeName>, si trova-<lb/>
+                        vano in <placeName type="Paese">Italia</placeName> fra molti uguali e spesso anche erano vinti.<lb/>
+                        In <placeName type="Paese">Italia</placeName> questa prova può farsi solo a <placeName type="Città">Roma</placeName>, che come<lb/>
+                        capitale del <name type="geopolitical">Regno</name> rappresenta tutta l’<placeName type="Paese">Italia</placeName> e non una sola<lb/> 
+                        regione, che è stata e sarà sempre la città più cosmopolita<lb/> 
+                        del mondo. Quando una volta i nostri artisti saranno riu-<lb/>
+                        sciti in questo grande esperimento, allora non avverrà più<lb/> 
+                        come oggi, che un quadro straniero inferiore ad un quadro<lb/> 
+                        italiano abbia nel mercato d’<placeName type="continent">Europa</placeName> un prezzo assai mag-<lb/>
+                        giore e si venda piu facilmente. Anche questo sarebbe un<lb/> 
+                        vantaggio. — Quindi i sostenitori dell’Esposizione unica<lb/>
+                        continuano per la loro via, ed in <placeName type="Città">Roma</placeName>, favorito dal <orgName type="org">go-<lb/>
+                        verno</orgName>, già sorge il palazzo dell’Esposizione, che deve esser<lb/> 
+                        la sede del nostro futuro <hi rend="italic">Salon</hi>.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Non si può negare che i due partiti sostengano la lotta<lb/> 
+                        con uguale ardore, e con validi argomenti. Che cosa av-<lb/>
+                        verrà dunque, se nessuno vuol cedere un palmo di terreno,<lb/>
+                        e non si trova modo di venire ad una conciliazione ? È molto<lb/> 
+                        probabile che vinceranno i sostenitori della Esposizione per-<lb/>
+                        manente in <placeName type="Città">Roma</placeName>, e ciò non per la forza degli argomenti <lb/>
+                        che addurranno; ma perchè in fondo la soluzione del pro-<lb/>
+                        blema è nelle mani del <orgName type="org">governo</orgName>, e sul <orgName type="org">governo</orgName> hanno forza <lb/>
+                        più gli uomini politici che gli artisti, e tutti gli uomini <lb/>
+                        politici vedono l’utilità di accrescer lustro e decoro alla <lb/>
+                        capitale; ma non tutti conoscono e capiscono le vere leggi <lb/>
+                        e i veri interessi dell’arte. Il <orgName type="org">governo</orgName> è in <placeName type="Città">Roma</placeName>, e la forza <lb/>
+                        che su di esso esercita da vicino la capitale, è certo mag-<lb/>
+                        giore di quella che può esercitare da lontano ogni altra <lb/>
+                        città del <name type="geopolitical">Regno</name>. Ma quando l’Esposizione permanente sarà <lb/>
+                        decretata, comincerà subito, è anzi già cominciata, l’oppo-<lb/>
+                        sizione delle altre città. Molti artisti indispettiti e disgustati<lb/> 
+                        non esporranno a <placeName type="Città">Roma</placeName> ; si organizzeranno esposizioni in <lb/>
+                        altre città italiane, facendo ogni sorta di <choice><sic style="display:none;">sacrifizi</sic><corr>sacrifici</corr></choice> perchè <lb/>
+                        riescano splendide, e, se è possibile, meglio assai che nella <lb/>
+                        capitale. Si chiederanno aiuti al <orgName type="org">governo</orgName> che non potrà ne-<lb/>
+                        garli. E così non avremo una grande esposizione nazionale, <lb/>
+                        nè centrale, nè locale. Torneremo forse al vecchio ed infau-<lb/>
+                        sto sistema del dividere e suddividere. Si esporrà per tutto <lb/>
+                        contemporaneamente. Trionferanno da capo i mediocri, e chi <lb/>
+                        ne soffrirà davvero sarà l’arte.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>A noi pare che la questione meriti di esser presa in<lb/>
+                        seria considerazione, e che l’una parte e l’ altra dovrebbe<lb/>
+                        essere animata dall’onesto desiderio di rendere agli av-<lb/>
+                        versari quella giustizia cui hanno diritto. Non si tratta <lb/>
+                        di vincere, si tratta di far vincere l’ interesse bene inteso <lb/>
+                        dell'arte. Ed a noi pare che un mezzo di conciliazione ci <lb/>
+                        sia. Nello stato presente delle cose, nello stato in cui è ora <lb/>
+                        la pubblica opinione, sarebbe, noi crediamo, un vero danno <lb/>
+                        sopprimere le Esposizioni nazionali, che si tengono alter-<lb/>
+                        nativamente nelle città principali del <name type="geopolitical">Regno</name>. Nè ci muove <lb/>
+                        punto l’esempio di <placeName type="Città">Parigi</placeName> o di <placeName type="Città">Londra</placeName>, perchè l’<placeName type="Paese">Italia</placeName> non <lb/>
+                        è la <placeName type="Paese">Francia</placeName>, nè l’<placeName type="Paese">Inghilterra</placeName>, le quali non si sono, come noi <lb/>
+                        formate ieri; non hanno, oltre la capitale, città come <placeName type="Città">Firenze</placeName>, <lb/>
+                        <placeName type="Città">Venezia</placeName>, <placeName type="Città">Milano</placeName>. Non ebbero mai in passato, nè hanno oggi, <lb/>
+                        una così grande varietà di scuole come abbiamo noi. Nello <lb/>
+                        stesso tempo crediamo che sarebbe di un grandissimo van-<lb/>
+                        taggio l’avere ogni otto o dieci anni una grande Esposi-<lb/>
+                        zione internazionale di belle arti in <placeName type="Città">Roma</placeName>.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/> Le prime Esposizioni servirebbero a mettere in gara le<lb/> 
+                        scuole nazionali fra loro, ad apparecchiarle a lottare poi tutte <lb/>
+                        unite con le scuole straniere,che sarebbero invitate alla gran-<lb/>
+                        de mostra internazionale in <placeName type="Città">Roma</placeName>. E così ci pare che sa-<lb/>
+                        rebbe fatta ragione a ciascuna delle parti. Il credere di
+                    </p>
+                </ab>
+
+                <cb n="2"/>
+                <ab facs="pagina3_colonna2">
+                    <p>
+                        potere adesso fare ogni anno una grande, unica Esposi-<lb/>
+                        zione a <placeName type="Città">Roma</placeName>, non varrebbe ad altro, che a rendere più<lb/>
+                        facile la vittoria di coloro che si propongono di gareggiare<lb/> 
+                        con essa, organizzando, per iniziativa locale, Esposizioni<lb/> 
+                        nazionali nelle altro città del <name type="geopolitical">regno</name>.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>L’esperimento alternativo dei due sistemi avrebbe non <lb/>
+                        solo il vantaggio di rendere possibile in <placeName type="Città">Roma</placeName> la grande<lb/> 
+                        Esposizione, alla quale i nostri artisti avrebbero il tempo <lb/> 
+                        d’apparecchiarsi; ma darebbe, dopo alcuni anni, un modo <lb/> 
+                        sicuro di giudicare così l’uno come l’altro sistema, e pren-<lb/> 
+                        dere, con vera cognizione di causa, nuove deliberazioni<lb/> 
+                        in avvenire. Noi sottoponiamo questa proposta al giudizio<lb/> 
+                        ed alla discussione degli artisti, i quali sono in ultima<lb/>  
+                        analisi i giudici competenti ed autorevoli in tale materia.<lb/>  
+                        E li avvertiamo che il loro silenzio può in questo caso es-<lb/> 
+                        sere funesto all’ avvenire dell’arte, perchè abbandona ogni<lb/>  
+                        deliberazione nelle mani di coloro che, non essendo artisti,<lb/>  
+                        possono più facilmente illudersi, ingannarsi o lasciarsi ingan-<lb/> 
+                        nare, ed in ogni caso non hanno tutta l’autorità necessaria<lb/>  
+                        per farsi ascoltare. Se la soppressione delle cento piccole<lb/>  
+                        esposizioni locali, e la fondazione delle Esposizioni nazionali<lb/>  
+                        giovò molto all’arte; il mutare questo sistema, che ha già<lb/> 
+                        dato buoni frutti, senza matura discussione, senza concordia<lb/>  
+                        fra gli artisti, potrebbe nuocere assai a quelle arti, che sono <lb/> 
+                        già, ma debbono essere sempre di più uno dei grandi inte-<lb/> 
+                        ressi nazionali, da cui dipendono la gloria e la prosperità<lb/>  
+                        del nostro paese.
+                    </p>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

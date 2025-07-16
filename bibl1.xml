@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "dtd_all.dtd">
+
+<TEI>
+    <teiHeader> <!--intestazione-->
+        <fileDesc> <!--descrizione bibliografica della fonte-->
+            <titleStmt><!-- codifica del titolo dell'edizione digitale-->
+                <title type="title">L'ora della ricreazione</title>
+                <title type="subtitle">Libro di letteratura per i fanciulli</title>
+                <author>Candeletti</author>
+            </titleStmt>
+            <editionStmt><!--informazioni relative all'edizione digitale-->
+                <edition>Edizione digitale codificata in TEI
+                    <date when="2025-06">Giugno 2025</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da </resp>
+                    <name> Angelo Mario Del Grosso </name>
+                </respStmt>
+                <respStmt>
+                    <resp> Trascrizione e codifica a cura di </resp>
+                    <name> Tania D'Atena </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt><!--informazioni relative alla pubblicazione dell'edizione-->
+                <publisher>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability> 
+                   <p>Riprodotto per fini di studio e ricerca. Accesso libero </p>
+                </availability>
+                <idno type="URL">https://rassegnasettimanale.animi.it/</idno>
+            </publicationStmt>
+            <sourceDesc><!--informazioni sulla fonte-->
+                <biblStruct>
+                    <analytic>
+                        <title type="title" level="a">L'ora della ricreazione</title>
+                        <title type="subtitle" level="a">Libro di letteratura per i fanciulli</title>
+                        <author>Candeletti</author>
+                        <date when="1880">1880</date>
+                        <placeName type="Città">Torino</placeName>
+                    </analytic>
+                    <monogr>
+                        <title level="j">La Rassegna Settimanale di politica, scienze, lettere ed arti</title>
+                        <imprint>
+                            <publisher>Tipografia Barbera</publisher>
+                            <pubPlace>Roma</pubPlace>
+                            <date when="1881-06-05">5 giugno 1881</date>
+                        </imprint>
+                    </monogr>
+                    <note> Recensione del libro: Salvatore Concato e Filippo Sesler,
+                            <title>L'ora della ricreazione. Libro di lettura per i fanciulli.</title>
+                    </note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc><!--descrive il lavoro tecnico svolto per codificare il testo-->
+            <projectDesc><!--descrizione dello scopo della codifica-->
+                <p>
+                    Le pagine dell'articolo sono state codificate per il progetto di Codifica di testi previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico 2024-2025.
+                    Il lavoro ha previsto la codifica della sezione bibliografica "L'ora della ricreazione. Libro di lettura per i fanciulli", fascicolo 179 del volume 7.
+                </p>
+            </projectDesc>
+            <editorialDecl><!--dettagli sulle pratiche applicate-->
+                <p>
+                    La trascrizione è stata eseguita mantenendo la grafia originale, inclusi eventuali errori tipografici e di sintassi e uso di maiuscole/minuscole.
+                    Le abbreviazioni sono state indicate tramite l’elemento <abbr></abbr> ed espanse con l'elemento <expan></expan>; le città e i Paesi sono stati evidenzaiti attraverso il <placeName></placeName> e i nomi degli artisti attraverso il tag <persName></persName>.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="bibl1">
+            <graphic url='img/bibl1.jpg' width='1149.4px' height='1692.4px' />
+            <zone xml:id="bibl1_colonna1" ulx="82" uly="1289" lrx="599" lry="1537" />
+            <zone xml:id="bibl1_colonna2" ulx="599" uly="85" lrx="1122" lry="1216" />
+        </surface>
+    </facsimile>
+
+    <text xml:lang="it">
+        <body>
+            <div type="bibliografia" xml:id="biblLibro">
+                <pb n="1" facs="#bibl1"/>
+                <cb n="1"/>
+                <ab facs="#bibl1_colonna1">
+                    <p>
+                        <author>SALVATORE CONCATO</author>, <author>FILIPPO SESLER</author>,
+                       <title type="title"> <hi rend="italic">L'ora della ricreazione.</hi> Libro di letteratura per i fanciulli</title>,
+                        - <pubPlace><placeName type="Città">Torino</placeName></pubPlace>, <publisher>Candeletti</publisher>, <date when="1880">1880</date>.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Il libro è diviso in due parti. La prima è formata da<lb/>
+                        racconti e biografie, del <choice><abbr type="titolo" style="display:none;">sig.</abbr><expan>signor </expan></choice><persName key="Salvatore Concato"><surname>Concato</surname></persName>: la seconda contiene<lb/>
+                        dei &lt; pensieri morali di <persName key="Guglielmo Shakespeare"><forename>Guglielmo </forename><surname>Shakespeare</surname></persName> trascelti ed<lb/>
+                        ordinati da <persName key="Filippo Sesler"><forename>Filippo </forename><surname>Sesler</surname></persName>.&gt; Nei &lt; racconti &gt; in generale<lb/>
+                        non troviamo nè originalità d'invenzione, nè disegno ni-<lb/>
+                        tido, nè maestria o coltura di forma; come al solito, si vede<lb/>
+                        che manca all'<choice><abbr type="titolo" style="display:none;">A.</abbr><expan>autore</expan></choice> quello speciale finissimo studio psicologico<lb/>
+                        che è indispensabile a chi voglia scrivere per bambini; e<lb/> 
+                    </p>
+                </ab>
+
+                <cb n="2"/>
+                <ab facs="#bibl1_colonna2">
+                    <p>
+                        perciò vengono fuori cose impossibili come ve n'ha p. es.<lb/>
+                        nel terzo di questi racconti: troviamo assai buono il rac-<lb/>
+                        conto che porta un titolo poco felicemente espresso &lt; il pro-<lb/>
+                        prio dovere, &gt; ma esso ci sembrerebbe assai più adatto ad <lb/>
+                        un libro di lettura per adulti.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Le &lt; biografie &gt; di <persName key="Giuseppe Parini"><surname>Parini</surname></persName>, di <persName key="Ugo Foscolo"><surname>Foscolo</surname></persName>, di <persName key="Carlo Goldoni"><surname>Goldoni</surname></persName>, di <persName key="Vittorio Alfieri"><surname>Al-<lb/>
+                        fieri</surname></persName>, di <persName key="Giacomo Leopardi"><surname>Leopardi</surname></persName>, di <persName key="Giuseppe Giusti"><surname>Giusti</surname></persName>, di <persName key="Cristoforo Colombo"><surname>Colombo</surname></persName>, di <persName key="Galileo Galilei"><surname>Galilei</surname></persName> compiono<lb/>
+                        la prima parte del libro: e in verità non approviamo sempre,<lb/>
+                        o non sappiamo vedere, il criterio che guidò a questa scelta.<lb/>
+                        Conoscendo bene le opere e la vita del <persName key="Giacomo Leopardi"><surname>Leopardi</surname></persName>, ci sembra<lb/>
+                        che non si dovrebbe dire senza riserva ai giovanetti: &lt; stu-<lb/>
+                        diate le opere e la vita di <persName key="Giacomo Leopardi"><surname>Leopardi</surname></persName>.&gt; E a una osservazione quasi<lb/>
+                        identica riduciamo senz'altro il giudizio nostro intorno alla<lb/>
+                        seconda parte del libro; la quale comincia i pensieri morali<lb/>
+                        tratti da <persName key="Guglielmo Shakespeare"><surname>Shakespeare</surname></persName> con questa citazione: &lt; Sì, tutto il<lb/>
+                        mondo è un teatro, e tutti gli uomini e le donne sono attori<lb/>
+                        che vengono e vanno. Ogni uomo nel corso di sua vita compie<lb/>
+                        diverse parti; dapprima è il lattante che vagisce fra le brac-<lb/>
+                        cia della matrice, poi il bambino piangente, sebbene col volto<lb/>
+                        fresco come l'aurora; poi l'adolescente che sospira e canta, <lb/>
+                        poi il giovine <hi rend="italic">irto di peli, viso infiammabile</hi>, pronto ai litigi,<lb/>
+                        che cerca la riputazione e l'onore in tutti i luoghi in cui<lb/>
+                        non stanno; poi l'uom di toga dal ventre rotondo, che dige-<lb/>
+                        risce un cappone con occhio severo, detta motti e sentenze e<lb/> 
+                        massime volgari; assopisce in una specie d'oblio, e vi lascia<lb/>
+                        senza denti, senz'occhi, senza palato. &gt; No; secondo noi, la ca-<lb/>
+                        ricatura e l'umorismo non si devono assolutamente offrire<lb/>
+                        a cotesto modo ai nostri fanciulli; ed invece di dir loro che la <lb/>
+                        vita è una commedia e che ciascuno vi sostiene una parte, <lb/>
+                        bisogna far loro sentire bene che la vita è un còmpito serio<lb/>
+                        e che la prima virtù è quella di mostrarvisi come si è vera-<lb/>
+                        mente con coraggiosa e candida sincerità. L'<choice><abbr type="titolo" style="displey:none;">A.</abbr><expan>autore</expan></choice> ci obietterà<lb/>
+                        che egli ha fatto la stessa osservazione nostra; ma prima<lb/>
+                        sentite come la fa: &lt; nè si creda che tale appellativo di <lb/> 
+                        <hi rend="italic">teatro</hi>, dato alla vita umana <unclear reason="faded"/> punto o poco alla se-<lb/>
+                        rietà dell'azione. Anche in teatro, per continuar l'immagine<lb/>
+                        di <persName key="Guglielmo Shakespeare"><surname>Shakespeare</surname></persName>, sono i migliori attori quelli che riscuotono<lb/>
+                        applausi. Che se si attribuisce tanta importanza ai batti-<lb/>
+                        mani che riscuote sulla scena un attore valente, quanto <lb/>
+                        maggior merito non avrà, di quanto maggiori lodi non do-<lb/>
+                        vrà divenir l'oggetto un uomo, che reciti bene la sua parte<lb/>
+                        nel teatro della vita? &gt; L'immagine dunque della commedia <lb/>
+                        risorge a ogni modo, e si rende ancora più falsa congiun-<lb/>
+                        gendola all'idea dei battimani; inoltre poi tra l'immagine<lb/>
+                        viva ma pericolosa e le spiegazioni astratte aggiunte per<lb/>
+                        correttivo, non v'ha dubbio pur troppo che resterà mag-<lb/>
+                        giormente e forse unicamnente impressa nella mente del lettore<lb/>
+                        fanciullo la pericolosa immagine che probabilmente ne gua-<lb/>
+                        sterà il criterio.
+                    </p>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

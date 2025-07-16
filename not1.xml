@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "dtd_all.dtd">
+
+<TEI>
+    <teiHeader> <!--intestazione-->
+        <fileDesc> <!--descrizione bibliografica della fonte-->
+            <titleStmt><!-- codifica del titolo dell'edizione digitale-->
+                <title type="title">NOTIZIE</title>
+            </titleStmt>
+            <editionStmt><!--informazioni relative all'edizione digitale-->
+                <edition>Edizione digitale codificata in TEI 
+                    <date when="2025-06">Giugno 2025</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da </resp>
+                    <name> Angelo Mario Del Grosso </name>
+                </respStmt>
+                <respStmt>
+                    <resp> Trascrizione e codifica a cura di </resp>
+                    <name> Tania D'Atena </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt><!--informazioni relative alla pubblicazione dell'edizione-->
+                <publisher>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability> 
+                   <p>Riprodotto per fini di studio e ricerca. Accesso libero </p>
+                </availability>
+                <idno type="URL">https://rassegnasettimanale.animi.it/</idno>
+            </publicationStmt>
+            <sourceDesc><!--informazioni sulla fonte-->
+                <biblStruct>
+                    <analytic>
+                        <title type="title" level="a">NOTIZIE</title>
+                        <date when="1881-06-05">5 giugno 1881</date>
+                    </analytic>
+                    <monogr>
+                        <title level="j">La Rassegna Settimanale di politica, scienze, lettere ed arti</title>
+                        <imprint>
+                            <publisher>Tipografia Barbera</publisher>
+                            <pubPlace>Roma</pubPlace>
+                            <date when="1881-06-05">5 giugno 1881</date>
+                        </imprint>
+                    </monogr>
+                    <note> Quinta notizia del fascicolo n.179 del volume 7 </note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc><!--descrive il lavoro tecnico svolto per codificare il testo-->
+            <projectDesc><!--descrizione dello scopo della codifica-->
+                <p>
+                    Le pagine dell'articolo sono state codificate per il progetto di Codifica di testi previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico 2024-2025.
+                    Il lavoro ha previsto la codifica della sezione notizie: quinta notizia, fascicolo 179 del volume 7.
+                </p>
+            </projectDesc>
+            <editorialDecl><!--dettagli sulle pratiche applicate-->
+                <p>
+                    La trascrizione è stata eseguita mantenendo la grafia originale, inclusi eventuali errori tipografici e di sintassi e uso di maiuscole/minuscole.
+                    Le città e i Paesi sono stati evidenzaiti attraverso il <placeName></placeName> e i nomi degli artisti attraverso il tag <persName></persName>.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="not1">
+            <graphic url='img/not1.jpg' width='1151.4px' height='1682.4px' />
+            <zone xml:id="not1_colonna2" ulx="587" uly="1142" lrx="1107" lry="1238" />
+        </surface>
+    </facsimile>
+
+    <text xml:lang="it">
+        <body>
+            <div type="notizia" xml:id="notizia">
+                <pb n="1" facs="#not1"/>
+                <cb n="1"/>
+                <ab facs="#"></ab>
+                <cb n="2"/>
+                <ab facs="#not1_colonna2">
+                    <p>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/> - Presso lo <persName key="Hans Spemann"><surname>Spemann</surname></persName> a <placeName type="Città">Stuttgard</placeName> si sta pubblicando una colle-<lb/>
+                        zione economica di autori classici tedeschi, della quale sono usciti finora<lb/>
+                        due volumi contenenti due novelle di <persName><forename>Luisa</forename><surname>di Fran&#231;ois</surname></persName> e l'<hi rend="italic">Oberhuf</hi><lb/>
+                        dell'<persName key="Karl Immermann"><surname>Immermann</surname></persName>. La critica ne parla universalmente in un senso molto<lb/>
+                        favorevole.
+                    </p>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="art179.xsl"?> 
+<!DOCTYPE TEI SYSTEM "dtd_all.dtd">
+
+
+<TEI>
+    <teiHeader> <!--intestazione-->
+        <fileDesc> <!--descrizione bibliografica della fonte-->
+            <titleStmt><!-- codifica del titolo dell'edizione digitale-->
+                <title type="title">L'esposizione artistica a Milano</title>
+                <title type="subtitle">Corrispondenza da Milano.</title>
+                <author>G.</author>
+            </titleStmt>
+            <editionStmt><!--informazioni relative all'edizione digitale-->
+                <edition>Edizione digitale codificata in TEI 
+                    <date when="2025-06">Giugno 2025</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da </resp>
+                    <name> Angelo Mario Del Grosso </name>
+                </respStmt>
+                <respStmt>
+                    <resp> Trascrizione e codifica a cura di </resp>
+                    <name> Tania D'Atena </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt><!--informazioni relative alla pubblicazione dell'edizione-->
+                <publisher>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability> 
+                   <p>Riprodotto per fini di studio e ricerca. Accesso libero </p>
+                </availability>
+                <idno type="URL">https://rassegnasettimanale.animi.it/</idno>
+            </publicationStmt>
+            <sourceDesc><!--informazioni sulla fonte-->
+                <biblStruct>
+                    <analytic>
+                        <title level="a">L'esposizione artistica a Milano</title>
+                        <author>G.</author>
+                    </analytic>
+                    <monogr>
+                        <title level="j">La rassegna settimanale di politica, scienze, lettere ed arti</title>
+                        <imprint>
+                            <publisher>Tipografia Barbera</publisher>
+                            <pubPlace>Roma</pubPlace>
+                            <date when="1881-06-05">5 giugno 1881</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc><!--descrive il lavoro tecnico svolto per codificare il testo-->
+            <projectDesc><!--descrizione dello scopo della codifica-->
+                <p>
+                    Le pagine dell'articolo sono state codificate per il progetto di Codifica di testi previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico 2024-2025.
+                    Il lavoro ha previsto la codifica dell'articolo "L'esposizione artistica a Milano", fascicolo 179 del volume 7.
+                </p>
+            </projectDesc>
+            <editorialDecl><!--dettagli sulle pratiche applicate-->
+                <p>
+                    La trascrizione è stata eseguita mantenendo la grafia originale. Eventuali correzioni sintattiche sono state risolte con gli elementi <sic></sic> per segnalare l'errore e <corr></corr> per correggere l'errore.
+                    Le abbreviazioni sono state indicate tramite l’elemento <abbr></abbr> ed espanse con l'elemento <expan></expan>; le città e i Paesi sono stati evidenzaiti attraverso il <placeName></placeName> e i nomi degli artisti attraverso il tag <persName></persName>.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface n="1" xml:id="pagina1">
+            <graphic url='img/pag1.jpg' width='1138.4px' height='1691.4px' />
+            <zone xml:id="pag1_colonna1" ulx="78" uly="1447" lrx="586" lry="1546" />
+            <zone xml:id="pag1_colonna2" ulx="590" uly="91" lrx="1102" lry="1546" />
+        </surface>
+        <surface n="2" xml:id="pagina2">
+            <graphic url='img/pag2.jpg' width='1154.4px' height='1690.4px' />
+            <zone xml:id="pag2_colonna1" ulx="66" uly="98" lrx="581" lry="1553" />
+            <zone xml:id="pag2_colonna2" ulx="581" uly="99" lrx="1105" lry="746" />
+        </surface>
+    </facsimile>
+
+    <text xml:lang="it">
+        <body>
+            <div type="articolo" xml:id="art.EspMil">
+                <!--pagina 1-->
+                <pb n="1" facs="#pagina1"/>
+                <cb n="1"/>
+                <ab facs="#pag1_colonna1">
+                    <p>
+                        <head type="title">L'ESPOSIZIONE ARTISTICA A <placeName type="Città"> MILANO</placeName></head><lb/>
+                        <head type="subtitle">CORRISPONDENZA DA <placeName type="Città"> MILANO</placeName></head><lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Quando i Milanesi decisero di aggiungere una mostra <lb/>
+                        artistica all'Esposizione Industriale, ebbero certo una buona
+                    </p>
+                </ab>
+
+                <cb n="2"/>
+                <ab facs="#pag1_colonna2">
+                    <p>
+                        idea; ma però era venuta troppo tardi per potere sperare <lb/>
+                        che gli artisti italiani si sarebbero mossi al caso, in tanto <lb/>
+                        breve spazio di tempo, di presentarsi con lavori importanti <lb/>
+                        e nuovi, non foss'altro perché poco prima avevano fatto <lb/>
+                        uscire dai loro studi le migliori opere che si mostra-<lb/>
+                        rono l'anno scorso a <placeName type="Città">Torino</placeName>. Ma per quanto qui a <placeName type="Città">Milano</placeName> <lb/>
+                        l'arte italiana non sia al completo, perchè mancano molti <lb/>
+                        nomi, come <persName key="Giovanni Morelli"><surname>Morelli</surname></persName>, <persName key="Giuseppe De Nittis"><surname>De Nittis</surname></persName>, <persName key="Gianfranco Ferroni"><surname>Ferroni</surname></persName>, <persName key="Silvestro Lega"><surname>Lega</surname></persName>, <persName key="Silvano D'Orsi"><surname>D'Orsi</surname></persName>, <persName key="Aurelio Amendola"><surname>Amen-<lb/>
+                        dola</surname></persName>, <persName key="Adriano Cecioni"><surname>Cecioni</surname></persName> ed altri, pur nonostante l'Esposizione è tale <lb/> 
+                        che merita la pena di parlare. <lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>In questa mostra artistica, come in tutte le altre che<lb/>
+                        si sono fatte in <placeName type="Paese">Italia</placeName> da una ventina d'anni, si vedono <lb/>
+                        molto spiccati i meriti e i difetti che rendono anche in <lb/>
+                        arte così diverse fra loro le provincie d'<placeName type="Paese">Italia</placeName>: particolarità <lb/>
+                        questa che forse soltanto il nostro paese possiede al mas- <lb/>
+                        simo grado, e che ad ogni costo dobbiamo procurare di man- <lb/>
+                        tenere. <lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Giacchè siamo in casa loro, parlerò prima degli artisti <lb/>
+                        milanesi. Da nessun'altra Esposizione si potrà meglio che <lb/>
+                        da questa giudicare la scuola lombarda, la quale, com'è na-<lb/>
+                        turale, si offre qui una tal quantità di quadri e di sta-<lb/>
+                        tue da concederci una analisi abbastanza esatta, da cui<lb/>
+                        però sono obbligato a trarre un giudizio poco favore-<lb/>
+                        vole. Difatti mi pare che la giovane arte milanese, in con-<lb/>
+                        fronto a ciò che danno le altre provincie d'<placeName type="Paese">Italia</placeName>, sia<lb/>
+                        più lontana dal sano indirizzo moderno, la più malata<lb/>
+                        e, quel che è peggio, la meno disposta alla guarigione. <lb/>
+                        Da quella massa di quadri nebbiosi, stopposi, slavati, nei<lb/>
+                        quali non riusciamo a renderci più conto di un contorno, <lb/>
+                        da quella quantità di statue scontorte, flosce, senza senti-<lb/>
+                        mento, e che non arrivano nemmeno a solleticare la sensualità<lb/>
+                        (forse loro unico scopo) per la mancanza assoluta di mo-<lb/>
+                        dellatura, risulta chiaramente, che questi artisti non sono<lb/>
+                        suscettibili di modificarsi, perchè non vogliono accorgesi<lb/>
+                        (forse per la ragione che quel nodo di dipingere e di<lb/>
+                        scolpire è più facile) che le figure, le case, le piante hanno<lb/>
+                        tutte un valore più o meno determinato, per cui si distin-<lb/>
+                        guono le une dalle altre o staccano sopra un fondo qua-<lb/>
+                        lunque esso sia.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Fuor di dubbio questa maniera di dipingere è una de-<lb/>
+                        rivazione della pittura di quello strano artista lombardo<lb/>
+                        che fu <persName key="Tranquillo Cremona"><forename>Tranquillo</forename><surname>Cremona</surname></persName>, morto pochi anni fa col rim-<lb/>
+                        pianto di molti. Egli era pittore originale, e infaticabile<lb/>
+                        cercatore di tecnica per rendere in modo pure originale<lb/>
+                        le sue ispirazioni gentili. Ho veduto i suoi disegni nei<lb/>
+                        quali lo studio accurato degenera quasi in minuzia nella<lb/>
+                        ricerca dei più piccoli particolari, e ci rammenta il dili-<lb/>
+                        gentissimo <persName key="Leonardo Da Vinci"><forename>Leonardo</forename></persName>; strano contrasto con quella sua pit-<lb/>
+                        tura di un'apparenza incerta e nebulosa, i cui contorni<lb/>
+                        sfumati fanno intravedere più che vedere le forme; però<lb/>
+                        queste forme intraviste rendono sentimenti, passioni, movenze<lb/>
+                        spesso gentili, ma vere, e che rivelano una mente eletta ed<lb/>
+                        un cuore d'artista.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Nell'imitazione di questo pittore, come sempre succede<lb/>
+                        a chi non ha qualità indivisuali, gli artisti milanesi hanno<lb/>
+                        acquistato i difetti del <persName key="Tranquillo Cremona"><surname>Cremona</surname></persName>, il nebuloso, l'incerto, l'ar-<lb/>
+                        tificioso che per lui erano gli errori di pronunzia del su<lb/>
+                        nobile linguaggio, e davano soltanto la noia che può dare<lb/>
+                        una cattiva calligrafia, la quale impedisca di legger corrente<lb/>
+                        una bell'opera letteraria; ma che essendo presi come unico<lb/>
+                        scopo, danno il resultato che ho lamentato disopra. Perchè<lb/>
+                        il <choice><abbr type="title" style="dispaly:none;">sig.</abbr><expan>signor </expan></choice><persName key="Gaetano Previati"><surname>Previati</surname></persName>, il quale in mezzo alle sue aberrazioni mo-<lb/>
+                        stra di possedere ingegno, non cerca nella propria natura<lb/>
+                        un modo individuato di rendere le proprie sensazioni? Lo<lb/>
+                        stesso diremo del <choice><abbr type="title" style="dispaly:none;">sig.</abbr><expan>signor </expan></choice><persName><surname>Rapetti</surname></persName> e di molti altri. Sono giovani<lb/>
+                        e già imbellettati come se fossero vecchi cadenti e preten-<lb/>
+                        zionosi. Il <choice><abbr type="title" style="dispaly:none;">sig.</abbr><expan>signor </expan></choice><persName key="Gaetano Previati"><surname>Previati</surname></persName> nel suo <hi rend="italic"><title>Cristo Crocifisso</title></hi> ci mette in-
+                    </p>
+                </ab>
+
+                <!--pagina 2-->
+                <pb n="2" facs="#pagina2"/> 
+                <cb n="1"/>
+                <ab facs="#pag2_colonna1">
+                    <p>
+                        nanzi tutto quel che ci può essere di più artificiosamente<lb/>
+                        convulso. È veramente strano che i giovani si sforzino a<lb/>
+                        vedere confuso e incerto, quando alle loro età le impressioni<lb/>
+                        dovrebbero essere invece più schiette e più determinate.<lb/>
+                        Fortunatamente però a questa cattiva regola vi sono delle<lb/>
+                        buone eccezioni, e fa piacere il poter notare i nomi di <persName key="Eugenio Gignous"><surname>Gi-<lb/>
+                        gnous</surname><forename>Eugenio</forename></persName>, <persName key="Achille Formis"><surname>Formis</surname></persName>, <persName key="Bartolomeo Bezzi"><surname>Bezzi</surname></persName>, <persName><surname>Fornora</surname></persName> e più ancora di<lb/>
+                        <persName key="Filippo Carcano"><surname>Carcano</surname></persName> e <persName key="Mosè Bianchi"><forename>Mosè</forename><surname>Bianchi</surname></persName> di <placeName type="Città">Monza</placeName>.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Il <choice><abbr type="title" style="dispaly:none;">sig.</abbr><expan>signor </expan></choice><persName key="Filippo Carcano"><surname>Carcano</surname></persName> ha esposto 9 quadri che hanno tutti una<lb/>
+                        impressioni sincera e indivisuale. Il suo <hi rend="italic"><title>Giuda Iscariota</title></hi>,<lb/>
+                        per quanto poco più che un abbozzo, è solenne, e pieno di<lb/>
+                        sentimento l'altro suo quadro <hi rend="italic"><title>Un dolore</title></hi>. Il <persName key="Mosè Bianchi"><forename>Mosè</forename><surname>Bianchi</surname></persName>, un<lb/>
+                        artista d'ingegno che fa l'arte per l'arte, ha esposto egli<lb/>
+                        pure diversi quadri che hanno tutti delle belle qualità. La<lb/>
+                        <hi rend="italic"><title>Barca Chiozzotta</title></hi> è quello che mi pare agli altri superiore.<lb/>
+                        Il mare è giusto di colore, sfugge lontano, e la barca ci<lb/>
+                        dà l'illusione di passare davvero al di là della cornice:<lb/>
+                        la figura del marinaro è piena di carattere; insomma è il <lb/>
+                        buonissimo risultato di uno studio coscenzioso. In un al-<lb/>
+                        tro suo quadretto ha raggiunto con molta finezza i di-<lb/>
+                        versi sentimenti di alcune figure <hi rend="italic">in chiesa</hi>, ed è appunto<lb/>
+                        così che egli chiama questo suo simpatico lavoro.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Prima di finire coi pittori milanesi voglio anche ram-<lb/>
+                        mentare il <choice><abbr type="title" style="dispaly:none;">sig.</abbr><expan>signor </expan></choice><persName key="Giuseppe Bertini"><surname>Bertini</surname></persName> ritrattista. Egli non è più giovanis-<lb/>
+                        simo, ma pare abbia presentito l'indirizzo moderno ed è<lb/>
+                        quasi scevro dal convenzionalismo che guasta l'arte del suo<lb/>
+                        tempo. Si vede nei suoi lavori una ricerca di carattere ed<lb/>
+                        un fare indivisuale, che pur troppo non mettono molti dei<lb/>
+                        pittori d'oggi nelle opere loro.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Alcune eccezioni vorrei trovarle anche nella scultura<lb/>
+                        lombarda, ma invece non vedo davvero una sola cosa di<lb/>
+                        cui meriti la pena di parlare. Gli scultori milanesi hanno<lb/>
+                        esposto una quantità di statue nude, scontorte, con at-<lb/>
+                        teggiamenti di mime che sono obbligate con l'esagera-<lb/>
+                        zione del gesto a rendere dei sentimenti falsi. A questo<lb/>
+                        aggiungete delle mani informi con dita temperate come dei<lb/>
+                        lapis, dei piedi impotenti a reggere quelle figure, delle<lb/>
+                        braccia, delle gambe mal modellate, e delle teste quasi tutte<lb/>
+                        uguali, come se tutti gli artisti si fossero serviti della stessa<lb/>
+                        modella, alla quale però debbono aver modificati i tratti<lb/>
+                        perchè certo nessuna testa vera può avere un insieme così<lb/>
+                        lezioso e così fuori di proporzione. Quello che poi riesce<lb/>
+                        assolutamente impossibile a quei signori è di provarsi a <lb/>
+                        rendere un sentimento un po' decente con un cencio di ve-<lb/>
+                        stito addosso; e sì che molte di quelle povere figure do-<lb/>
+                        vrebbero trovarsi contente di nascondere le loro deformi<lb/>
+                        nudità.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Se poi dai putti e dalle statuette infantili che popolano<lb/>
+                        le gallerie di scultura, dovessimo giudicare dello sviluppo<lb/>
+                        fisico della nostra futura generazione, non avremmo certo<lb/>
+                        da rallegrarci. Del resto è ormai provato che nei fanciulli<lb/>
+                        il precoce sviluppo intelletturale e le preoccupazioni, troppo<lb/>
+                        al disopra della loro età, hanno per conseguenza fatale quei <lb/>
+                        corpicini linfatici, rachitici, senza ossa nè muscoli, e quelle<lb/>
+                        teste idrocefale.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Però di tali peccati non dobbiamo far rimprovero sol-<lb/>
+                        tanto ai milanesi, perchè anche alcuni scultori toscani, ve-<lb/>
+                        neti, romani, napoletani che hanno qui esposto i loro lavori,<lb/>
+                        ci danno lo spettacolo di quest'arte senza seria ricerca,<lb/>
+                        senza sentimento, senza modellatura, contenti solo dell'am-<lb/>
+                        mirazione di un pubblico profano e borghese. E ormai<lb/>
+                        che sono entrato a parlare di tutta la scultura qui esposta,<lb/>
+                        finirà accennando alle poche opere che meritino di essere<lb/>
+                        lodate. - Il <persName key="Emilio Gallori"><surname>Gallori</surname></persName> di <placeName type="Città">Firenze</placeName> <choice><sic style="display:none;">colle</sic><corr>con le</corr></choice> sue <hi rend="italic"><title>Sorelle di latte</title></hi> ci<lb/>
+                        mostra, a parer mio, il pezzo di scultura più serio e più importante di tutta l'Esposizione. Questo gruppo, che<lb/>
+                        fu ammirato l'anno scorso a <placeName type="Città">Torino</placeName>, rappresenta una si-
+                    </p>
+                </ab>
+
+                <cb n="2"/>
+                <ab facs="#pag2_colonna2">
+                    <p>
+                        gnorina in amazzone che vorrebbe ottenere le confidenze<lb/>
+                        della sua sorella di latte, una bella contadina a cui una<lb/>
+                        certa timidezza rende difficile un completo abbandono.<lb/>
+                        In quest'opera d'arte di vede un'intima ricerca di ca-<lb/>
+                        rattere, raggiunto molto bene nella contadina e, se non<lb/>
+                        ugualmente ottenuto dalla signora, certo cercato con la<lb/>
+                        stessa cura. Il <persName key="Emilio Gallori"><surname>Gallori</surname></persName> ha qui altri lavori di minore impor-<lb/>
+                        tanza, ma nei quali si notano gli stessi pregi. - Il <choice><abbr type="title" style="dispaly:none;">prof.</abbr><expan>professor </expan></choice><persName key="Augusto Rivalta"><surname>Ri-<lb/>
+                        valta</surname></persName>, scultore ormai celebre, ha esposto qui una statuetta<lb/>
+                        in bronzo, rappresentante <hi rend="italic"><persName key="Giovanni Battista Niccolini"><forename>Giovan Battista</forename><surname>Niccolini</surname></persName></hi>, la quale,<lb/>
+                        sebbene per lui di non grande importanza, ci dà una prova<lb/>
+                        di più del suo ingegno e del sano indirizzo dell'arte sua.<lb/>
+                        - <hi rend="italic"><title>Vocazioni</title></hi> è il titolo dato al <choice><abbr type="title" style="dispaly:none;">sig.</abbr><expan>signor </expan></choice><persName key="Emilio Marsili"><surname>Marsili</surname><forename>Emilio</forename></persName> al suo<lb/>
+                        lavoro: un ragazzo, pieno di entusiasmo, declama tenendo<lb/>
+                        con una mano una carta, mentre <choice><sic style="dispaly:none;">coll'</sic><corr>con l'</corr></choice>altra gestisce energi-<lb/>
+                        camente. Quest'artista, <choice><sic style="dispaly:none;">colla</sic><corr>con la</corr></choice> sua statuetta che è piena di<lb/>
+                        buone qualità e più ancora di buone intenzioni, si è meri-<lb/>
+                        tato il premio <title type="honorific">Principe Umberto</title>, e sono sicuro che questo<lb/>
+                        incoraggiamento lo farà perseverare nella buona strada<lb/>
+                        che ha scelto. - <persName key="Raffaele Belliazzi"><surname>Belliazzi</surname></persName>, <persName key="Salvatore Grita"><surname>Grita</surname></persName>, <persName key="Ettore Ximenes"><surname>Ximenes</surname></persName> hanno pure espo-<lb/>
+                        sto alcune cose di poca importanza, ma che rivelano sem-<lb/>
+                        pre qualità loro proprie. - Del <hi rend="italic"><title>Napoleone III</title></hi> del <persName key="Francesco Barzaghi"><surname>Barzaghi</surname></persName><lb/>
+                        non parlo, perchè quella statua colossale in un luogo così ri-<lb/>
+                        stretto non si vede abbastanza da poterne giudicare l'insieme.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/>Finisco questo breve cenno concludendo che a questa<lb/>
+                        Esposizione la scultura italiana non ci dimostra quel pro-<lb/>
+                        gresso del quale ci ha dato sempre i più splenditi attestati<lb/>
+                        nelle mostre passate, e, secondo me, questo risultato negativo<lb/>
+                        si deve alla prevalenza della scultura milanese. <space dim="horizontal" extent="1,5cm" reason="initial"/><signed><persName><forename>G.</forename></persName></signed>
+                    </p>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>

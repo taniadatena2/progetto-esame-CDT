@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>NOTIZIE</title>
+      <link rel="stylesheet" href="style.css"><script src="https://code.jquery.com/jquery-3.6.0.js"></script><script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script><script src="script2.js"></script></head>
+   <body>
+      <header>
+         <h1><a href="index.html">La Rassegna Settimanale</a></h1>
+      </header>
+      <nav>
+         <ul>
+            <li><a href="#">ARTICOLI</a><ul>
+                  <li><a href="art179.html" data-file="art.179.xml" class="carica_articolo">Articolo 1, fascicolo 179</a></li>
+                  <li><a href="art194.html" data-file="art194.xml" class="carica_articolo">Articolo 2, fascicolo 194</a></li>
+               </ul>
+            </li>
+            <li><a href="#">BIBLIOGRAFIA</a><ul>
+                  <li><a href="bibl1.html">Libro di letteratura per Fanciulli</a></li>
+                  <li><a href="bibl2.html">Un bacio, Luigi Capuana</a></li>
+               </ul>
+            </li>
+            <li><a href="#">NOTIZIE</a><ul>
+                  <li><a href="not1.html">Quinta notizia, fascicolo 179</a></li>
+                  <li><a href="not2.html">Ultima notizia, fascicolo 194 </a></li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <div class="main_container">
+         <div class="contenuto"><button id="btnEdition">Edizione Digitale</button><div id="facsimilePages">
+               <div class="page-container"><button id="prevPageFacsimile" disabled>←</button><div class="pages_wrapper">
+                     <div class="page" style="display:none;"><img src="img/not1.jpg" alt="pagina"></div>
+                  </div><button id="nextPageFacsimile">→</button></div>
+            </div>
+            <div id="textPages" style="display: none;">
+               <div class="page-container"><button id="prevPageText" disabled>←</button><div class="pages_wrapper">
+                     <div class="page" style="display:none;">
+                        <div class="columns">
+                           <div class="col col1"></div>
+                           <div class="col col2">
+                              <p>
+                                 <span class="indent" style="width:0.5cm"></span> - Presso lo <span class="person" title="Hans Spemann">Spemann</span> a <span class="place" title="Città">Stuttgard</span> si sta pubblicando una colle-<br>
+                                 zione economica di autori classici tedeschi, della quale sono usciti finora<br>
+                                 due volumi contenenti due novelle di <span class="person" title="">Luisadi François</span> e l'<em>Oberhuf</em><br>
+                                 dell'<span class="person" title="Karl Immermann">Immermann</span>. La critica ne parla universalmente in un senso molto<br>
+                                 favorevole.
+                                 </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div><button id="nextPageText">→</button></div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <footer id="footer">
+      Il progetto è stato realizzato da Tania D'Atena per l'esame di Codifica di Testi,
+      previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico
+      2024-2025.
+      </footer>
+</html>

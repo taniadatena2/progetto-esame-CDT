@@ -1,0 +1,108 @@
+<!ELEMENT TEI (teiHeader, facsimile, text)>
+
+<!ELEMENT teiHeader (fileDesc, encodingDesc?)>
+
+<!ELEMENT fileDesc (titleStmt, editionStmt?, publicationStmt, sourceDesc)>
+<!ELEMENT titleStmt (title+, author*)>
+<!ELEMENT title (#PCDATA | hi)*>
+<!ELEMENT author (#PCDATA)>
+
+<!ELEMENT editionStmt (edition?, respStmt+)>
+<!ELEMENT edition (#PCDATA | date)*>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT publicationStmt (publisher| pubPlace| availability| date | idno)*>
+<!ELEMENT availability (p)>
+
+<!ELEMENT sourceDesc (biblStruct)>
+<!ELEMENT biblStruct (analytic| monogr| note)*>
+<!ELEMENT analytic (title| author|date|placeName)*>
+<!ELEMENT monogr (title, imprint)>
+<!ELEMENT imprint (publisher, pubPlace, date)>
+<!ELEMENT note (#PCDATA|title)*>
+<!ELEMENT idno (#PCDATA)>
+
+<!ELEMENT encodingDesc (projectDesc?, editorialDecl?)>
+<!ELEMENT projectDesc (p)>
+<!ELEMENT editorialDecl (p)>
+<!ELEMENT p (#PCDATA|head|space|lb|placeName|persName|abbr|hi|author|title|pubPlace|publisher|date|unclear|orgName|term|rs|choice|sic|corr|signed|name|reg|orig|expan)*>
+
+<!ELEMENT facsimile (surface+)>
+<!ELEMENT surface (graphic+, zone*)>
+<!ELEMENT graphic EMPTY>
+<!ELEMENT zone EMPTY>
+
+<!ELEMENT text (body)>
+<!ELEMENT body (div)>
+<!ELEMENT div (pb|cb|ab)*>
+<!ELEMENT pb EMPTY>
+<!ELEMENT cb EMPTY>
+<!ELEMENT ab (p*)>
+<!ELEMENT head (#PCDATA|placeName)*>
+<!ELEMENT space EMPTY>
+<!ELEMENT lb EMPTY>
+<!ELEMENT placeName (#PCDATA|lb)*>
+<!ELEMENT persName (forename|surname|lb)*>
+<!ELEMENT forename (#PCDATA)>
+<!ELEMENT surname (#PCDATA|lb)*>
+<!ELEMENT abbr (#PCDATA)>
+<!ELEMENT expan (#PCDATA)>
+<!ELEMENT hi (#PCDATA | title | persName | placeName | rs | lb)*>
+<!ELEMENT pubPlace (#PCDATA|placeName)*>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT unclear EMPTY>
+<!ELEMENT orgName (#PCDATA|lb)*>
+<!ELEMENT term (#PCDATA)>
+<!ELEMENT rs (#PCDATA)>
+<!ELEMENT choice (sic| corr| orig| reg | abbr | expan)*>
+<!ELEMENT sic (#PCDATA)>
+<!ELEMENT corr (#PCDATA)>
+<!ELEMENT orig (#PCDATA)>
+<!ELEMENT reg (#PCDATA)>
+<!ELEMENT signed (persName)>
+
+
+
+
+<!ATTLIST title type CDATA #IMPLIED
+                level CDATA #IMPLIED>
+<!ATTLIST date when CDATA #IMPLIED>
+<!ATTLIST idno type CDATA #IMPLIED>
+<!ATTLIST surface n CDATA #IMPLIED
+                  xml:id ID #IMPLIED>
+<!ATTLIST graphic url CDATA #REQUIRED
+                  width CDATA #IMPLIED
+                  height CDATA #IMPLIED>
+<!ATTLIST zone xml:id ID #IMPLIED
+               ulx CDATA #REQUIRED
+               uly CDATA #REQUIRED
+               lrx CDATA #REQUIRED
+               lry CDATA #REQUIRED>
+    
+<!ATTLIST text xml:lang CDATA #IMPLIED>
+<!ATTLIST div type CDATA #IMPLIED
+               xml:id ID #IMPLIED>
+<!ATTLIST pb n CDATA #REQUIRED
+          facs CDATA #IMPLIED>
+<!ATTLIST cb n CDATA #REQUIRED>
+<!ATTLIST ab facs CDATA #IMPLIED>
+<!ATTLIST head type CDATA #IMPLIED>
+<!ATTLIST placeName type CDATA #IMPLIED>
+<!ATTLIST persName type CDATA #IMPLIED key CDATA #IMPLIED>
+<!ATTLIST space dim CDATA #IMPLIED 
+                extent CDATA #IMPLIED 
+                reason CDATA #IMPLIED>
+<!ATTLIST hi rend CDATA #IMPLIED>
+<!ATTLIST unclear reason CDATA #IMPLIED>
+<!ATTLIST orgName type CDATA #IMPLIED>
+<!ATTLIST term type CDATA #IMPLIED>
+<!ATTLIST abbr expan CDATA #IMPLIED>
+<!ATTLIST rs type CDATA #IMPLIED>
+<!ATTLIST abbr type CDATA #IMPLIED
+          style CDATA #IMPLIED>
+<!ATTLIST sic style CDATA #IMPLIED>
+<!ATTLIST orig style CDATA #IMPLIED>
+<!ATTLIST name type CDATA #IMPLIED>

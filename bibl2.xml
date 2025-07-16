@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "dtd_all.dtd">
+
+<TEI>
+    <teiHeader> <!--intestazione-->
+        <fileDesc> <!--descrizione bibliografica della fonte-->
+            <titleStmt><!-- codifica del titolo dell'edizione digitale-->
+                <title type="title">Un bacio</title>
+                <author>Giuseppe Ottino</author>
+            </titleStmt>
+            <editionStmt><!--informazioni relative all'edizione digitale-->
+                <edition>Edizione digitale codificata in TEI
+                    <date when="2025-06">Giugno 2025</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da </resp>
+                    <name> Angelo Mario Del Grosso </name>
+                </respStmt>
+                <respStmt>
+                    <resp> Trascrizione e codifica a cura di </resp>
+                    <name> Tania D'Atena </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt><!--informazioni relative alla pubblicazione dell'edizione-->
+                <publisher>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</publisher>
+                <pubPlace>Roma</pubPlace>
+                <availability> 
+                   <p>Riprodotto per fini di studio e ricerca. Accesso libero </p>
+                </availability>
+                <idno type="URL">https://rassegnasettimanale.animi.it/</idno>
+            </publicationStmt>
+            <sourceDesc><!--informazioni sulla fonte-->
+                <biblStruct>
+                    <analytic>
+                        <title type="title" level="a">Un bacio</title>
+                        <author>Giuseppe Ottino</author>
+                        <date when="1880">1881</date>
+                        <placeName type="Città">Milano</placeName>
+                    </analytic>
+                    <monogr>
+                        <title level="j">La Rassegna Settimanale di politica, scienze, lettere ed arti</title>
+                        <imprint>
+                            <publisher>Tipografia Barbera</publisher>
+                            <pubPlace>Roma</pubPlace>
+                            <date when="1881-09-18">18 settembre 1881</date>
+                        </imprint>
+                    </monogr>
+                    <note> Recensione del libro: Luigi Capuana,<title>Un bacio</title></note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc><!--descrive il lavoro tecnico svolto per codificare il testo-->
+            <projectDesc><!--descrizione dello scopo della codifica-->
+                <p>
+                    Le pagine dell'articolo sono state codificate per il progetto di Codifica di testi previsto dal corso di laurea triennale in Informatica Umanistica, nell'anno accademico 2024-2025.
+                    Il lavoro ha previsto la codifica della sezione bibliografica "Un bacio", fascicolo 194 del volume 8.
+                </p>
+            </projectDesc>
+            <editorialDecl><!--dettagli sulle pratiche applicate-->
+                <p>
+                    La trascrizione è stata eseguita mantenendo la grafia originale, inclusi eventuali errori tipografici e di sintassi e uso di maiuscole/minuscole.
+                    Le abbreviazioni sono state indicate tramite l’elemento <abbr></abbr> ed espanse con l'elemento <expan></expan>; le città e i Paesi sono stati evidenzaiti attraverso il <placeName></placeName> e i nomi degli artisti attraverso il tag <persName></persName>.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="bibl2">
+            <graphic url='img/bibl2.jpg' width='1131.4px' height='1696.4px' />
+            <zone xml:id="bibl2_colonna1" ulx="32" uly="1006" lrx="553" lry="1518" />
+            <zone xml:id="bibl2_colonna2" ulx="557" uly="55" lrx="1070" lry="584" />
+        </surface>
+    </facsimile>
+
+    <text xml:lang="it">
+        <body>
+            <div type="bibliografia" xml:id="biblLibro2">
+                <pb n="1" facs="bibl2"/>
+                <cb n="1"/>
+                <ab facs="#bibl2_colonna1">
+                    <p>
+                        <author>LUIGI CAPUANA</author>,
+                        <title type="title"><hi rend="italic">Un bacio</hi></title>,
+                        - <pubPlace><placeName type="Città">Milano</placeName></pubPlace>, <publisher>Giuseppe Ottino editore</publisher>, <date when="1880">1881</date>.<lb/>
+                        <space dim="horizontal" extent="0,5cm" reason="initial"/> Sono sei novelle, raccolte sotto il titolo della prima, all’uso<lb/> 
+                        francese; e più una dedica a <hi rend="italic">Fasma</hi> che non è lo scritto meno <lb/>
+                        brioso e piacevole del volumetto. Un <hi rend="italic">Bacio</hi>, non ostante la <lb/>
+                        notata prerogativa, non è cosa d’importanza; una signora <lb/>
+                        lungamente corteggiata da un gentiluomo ha promesso di <lb/>
+                        dargli mano di sposa, quando egli le carpisca un bacio; e que-<lb/>
+                        sti riesce all’impresa, mentre la bella donna dorme... o piut-<lb/>
+                        tosto mentre finge di dormire. <hi rend="italic">Ti volevo bene... e avevo capito!</hi><lb/>
+                        Cosi spiega poi il caso ella stessa all’amante divenuto marito. <lb/>
+                        <hi rend="italic">Stranezza del cuore umano!</hi> Aggiunge l’<choice><abbr type="titolo" style="display:none;">A.</abbr><expan>autore</expan></choice> — Ma tocca al let-<lb/>
+                        tore l’indovinare le ragioni del fenomeno psicologico : è un <lb/>
+                        grazioso fatterello e non più. — <hi rend="italic">Contrasto</hi> merita maggior-<lb/>
+                        mente il titolo di novella: è l’antitesi fra l’amor vero o l’amor<lb/> 
+                        sensualo, dipinta non senza originalità. — <hi rend="italic">L'idea di Piula</hi> è <lb/>
+                        il ritratto satirico d’un uomo che fingendosi poeta di sensi <lb/>
+                        squisiti non mira se non alla prosa del denaro. — <hi rend="italic">Storia <lb/>
+                        fosca</hi> è la storia d’una seduzione, al modo di Fedra, con un <lb/>
+                        Ippolito siciliano, meno rigido e più carnale dell’antico; co-<lb/>
+                        lorita così, a rapidi tocchi e con immagini di studiato na-<lb/>
+                        turalismo, fa venire la pelle d’oca. I due ultimi racconti appar-<lb/>
+                        tengono alla maniera fantastica messa in voga dal <persName key="Edgar Allan Poe"><surname>Poe</surname></persName>; ma
+                    </p>
+                </ab>
+
+                <cb n="2"/>
+                <ab facs="#bibl2_colonna2">
+                    <p>
+                        l’una (<hi rend="italic">Un caso di sonnambulismo</hi>) ha poca originalità, e per<lb/>
+                        quanta arte v’abbia posta l’<choice><abbr type="titolo" style="display:none;">A.</abbr><expan>autore</expan></choice>, non giunge a produrre intie-<lb/>
+                        ramente quella intensità d’impressione che conquide l’animo e <lb/>
+                        tien luogo di credibilità. L’altra (<hi rend="italic">Il <rs type="professione">dottor</rs> <persName><surname>Cymbalus</surname></persName></hi>) racchiude <lb/>
+                        in germe un’idea ingegnosa e peregrina. Trattasi d’un gio-<lb/>
+                        vane che, tormentato da passione, sta per uccidersi; un <lb/>
+                        amico lo conduce da un dotto fisiologo il quale ha scoperto il<lb/> 
+                        segreto di render l’uomo insensibile mediante una semplice <lb/>
+                        e sicura operazione. Pregato e ripregato questi consente, an-<lb/>
+                        corché a malincuore, a fare l’esperimento della sua scienza, <lb/>
+                        per salvare almeno la vita al giovane infelice. Il quale peraltro <lb/>
+                        ormai privo della facoltà di amare, dopo un breve periodo di <lb/>
+                        benessere, si trova più infelice di prima per quel vuoto che <lb/>
+                        sente in sè e che nulla può colmare : sicché, finisce col sui-<lb/>
+                        cidarsi, legando il suo patrimonio all’amico e al <rs type="professione">dottor</rs> <persName><surname>Cym-<lb/>
+                        balus</surname></persName> perchè costituiscano una scuola gratuita ove s’insegni <lb/>
+                        ad amare. Si potrebbe chiedere come mai divenuto insensi-<lb/>
+                        bile, il protagonista senta tuttavia la mancanza della facoltà<lb/> 
+                        d’amare. Ma obiezioni di tal genere si troverebbero da fare <lb/>
+                        in molte storie fantastiche : piuttosto avremmo voluto che <lb/>
+                        l’<choice><abbr type="titolo" style="display:none;">A.</abbr><expan>autore</expan></choice> svolgesse più largamente e più profondamente il proprio <lb/>
+                        tema, mentre si trattiene più sugli accessorii che sulla parte <lb/>
+                        sostanziale. Ad ogni modo questa, al pari delle altre novelle, <lb/>
+                        è narrata con garbata disinvoltura e si legge con diletto.
+                    </p>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
